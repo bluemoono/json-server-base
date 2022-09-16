@@ -22,3 +22,19 @@ POST /login <br/>
 POST /signin
 
 Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
+
+### Candies
+
+POST /candies
+
+Recebe dados de algum doce que você goste com a lisão de algum restaurante, com nome, ingredientes, peso e o userId.
+
+NECESSÁRIO A AUTENTICAÇÃO POR TOKEN.
+
+### Opinions
+
+POST /opinions
+
+Simula um comentário sobre o prato cadastrado, assim como em aplicativos de entrega, nele compõem com a descrição, nota, userId e candiesId (id do doce que você está comentando).
+
+NECESSÁRIO A AUTENTICAÇÃO POR TOKEN.

@@ -6,6 +6,39 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "candies@candies.com",
+      "password": "$2a$10$1ZMABbWQMYJpHqSHWttb8Os5yD/SBeRtR7GzFmnJHBtMgFUVhBCWS",
+      "name": "Ana Alencar",
+      "gender": "Cis woman",
+      "id": 2
+    }
+  ],
+  "opinions": [
+    {
+      "description": "Uma delicia, super leve e com um azedindho muito bem-vinda",
+      "rating": 5,
+      "candiesId": 1,
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "description": "Super macio, com chocolate no ponto não sendo enjoativo. Na verdade é muito viciante",
+      "rating": 4,
+      "candiesId": 2,
+      "userId": 2,
+      "id": 2
+    }
+  ],
+  "candies": [
+    {
+      "name": "Surpresa de uva",
+      "incredients": "Uva thompson sem semente, brigadeiro de leite ninho e açucar cristal",
+      "weight (gr)": 50,
+      "price": 5,
+      "userId": 2,
+      "id": 4
     }
   ]
 }
